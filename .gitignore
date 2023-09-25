@@ -1,0 +1,71 @@
+# Ignore build and compiled files for Java
+*.class
+*.jar
+*.war
+*.ear
+/target/
+
+# Ignore build and compiled files for JavaScript (Node.js)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Ignore logs and generated files
+logs/
+*.log
+*.log.*
+*.access
+*.session
+*.test
+*.tmp
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.bak
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.swp
+*~
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore Maven build files
+/.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore Gradle build files
+/.gradle/
+build/
+
+# Ignore Yarn workspaces directories
+/.yarn/
+.yarnrc.yml
+
+# Ignore generated JS bundles
+/dist/
+/build/
+/public/
+
+# Ignore logs
+/logs/
+log.txt
+
+# Ignore ESLint and Prettier cache files
+.eslintcache
+.prettiercache
