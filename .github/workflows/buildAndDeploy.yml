@@ -13,6 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up JDK
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.11
+
+      - name: Build with Maven
+        run: mvn clean install
+
       - name: Login to AWS ECR
         id: login-ecr
         run: |
