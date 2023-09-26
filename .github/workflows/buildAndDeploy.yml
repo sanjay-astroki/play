@@ -20,6 +20,7 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean install
+        working-directory: backend
 
       - name: Login to AWS ECR
         id: login-ecr
